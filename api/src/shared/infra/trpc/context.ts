@@ -1,6 +1,7 @@
 import { IUserRepositories } from '@models/IUserRepositories'
 import { IJWTProvider } from '@shared/providers/JWTProvider/IJWTProvider'
 import { inferAsyncReturnType } from '@trpc/server'
+import { CreateFastifyContextOptions } from '@trpc/server/adapters/fastify'
 import { container } from 'tsyringe'
 // import { CreateFastifyContextOptions } from '@trpc/server/adapters/fastify'
 
