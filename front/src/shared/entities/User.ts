@@ -1,0 +1,1 @@
+export type {User} from '@api/src/modules/users/entities/User'

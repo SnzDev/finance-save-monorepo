@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1667783291250" clover="3.2.0">
+  <project timestamp="1667783291251" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="3" coveredconditionals="3" methods="11" coveredmethods="11" elements="51" coveredelements="51" complexity="0" loc="37" ncloc="37" packages="9" files="13" classes="13"/>
+    <package name="modules.users">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="routes.ts" path="/home/snz/projects/finance-save-monorepo/api/src/modules/users/routes.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.users.use-cases.createUser">
+      <metrics statements="14" coveredstatements="14" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="CreateUserController.ts" path="/home/snz/projects/finance-save-monorepo/api/src/modules/users/use-cases/createUser/CreateUserController.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+      <file name="CreateUserSchema.ts" path="/home/snz/projects/finance-save-monorepo/api/src/modules/users/use-cases/createUser/CreateUserSchema.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="CreateUserService.ts" path="/home/snz/projects/finance-save-monorepo/api/src/modules/users/use-cases/createUser/CreateUserService.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="22" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="repositories">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="container.ts" path="/home/snz/projects/finance-save-monorepo/api/src/repositories/container.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="repositories.in-memory">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="UserRepository.ts" path="/home/snz/projects/finance-save-monorepo/api/src/repositories/in-memory/UserRepository.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="repositories.prisma">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="UserRepository.ts" path="/home/snz/projects/finance-save-monorepo/api/src/repositories/prisma/UserRepository.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.infra.database">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="prisma.ts" path="/home/snz/projects/finance-save-monorepo/api/src/shared/infra/database/prisma.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.infra.trpc">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="context.ts" path="/home/snz/projects/finance-save-monorepo/api/src/shared/infra/trpc/context.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+      <file name="router.ts" path="/home/snz/projects/finance-save-monorepo/api/src/shared/infra/trpc/router.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="trpcInstance.ts" path="/home/snz/projects/finance-save-monorepo/api/src/shared/infra/trpc/trpcInstance.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.providers">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="container.ts" path="/home/snz/projects/finance-save-monorepo/api/src/shared/providers/container.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.providers.PasswordHashProvider">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="BCryptPasswordHashProvider.ts" path="/home/snz/projects/finance-save-monorepo/api/src/shared/providers/PasswordHashProvider/BCryptPasswordHashProvider.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
